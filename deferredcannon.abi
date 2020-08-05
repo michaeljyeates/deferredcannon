@@ -36,6 +36,28 @@
             ]
         },
         {
+            "name": "l2",
+            "base": "",
+            "fields": [
+                {
+                    "name": "num",
+                    "type": "uint32"
+                },
+                {
+                    "name": "s",
+                    "type": "uint32"
+                },
+                {
+                    "name": "t",
+                    "type": "uint32"
+                },
+                {
+                    "name": "m",
+                    "type": "string"
+                }
+            ]
+        },
+        {
             "name": "m",
             "base": "",
             "fields": [
@@ -50,6 +72,16 @@
                 {
                     "name": "m",
                     "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "m2",
+            "base": "",
+            "fields": [
+                {
+                    "name": "m",
+                    "type": "string"
                 }
             ]
         },
@@ -101,8 +133,18 @@
             "ricardian_contract": ""
         },
         {
+            "name": "l2",
+            "type": "l2",
+            "ricardian_contract": ""
+        },
+        {
             "name": "m",
             "type": "m",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "m2",
+            "type": "m2",
             "ricardian_contract": ""
         },
         {
